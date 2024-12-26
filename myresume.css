@@ -1,0 +1,98 @@
+.myResume{
+    margin: 40px;
+    padding: 15px;
+    border: 2px solid black;
+
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.me{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+}
+.name{
+    grid-area: 1/1/2/4;
+}
+h1{
+    font-size: 2.5rem;
+}
+.addressContact{
+    grid-area: 2/1/3/4;
+    font-size: 1.5rem;
+}
+.email{
+    grid-area: 3/1/4/2;
+    font-size: 1.1rem;
+}
+.linkedin{
+    grid-area: 3/2/4/3;
+    font-size: 1.1rem;
+}
+.github{
+    grid-area: 3/3/4/4;
+    font-size: 1.1rem;
+}
+
+.myObjective{
+    font-size: 1.2rem;
+}
+
+.lngs{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+.Skills{
+    grid-area: 1/1/2/3;
+}
+.CP{
+    grid-area: 2/1/3/3;
+}
+.CP > h4{
+    font-size: 1.3rem;
+}
+.Coding1 > ul,.Coding2 > ul{
+    font-size: 1.2rem;
+}
+.coding1{
+    grid-area: 3/1/4/2;
+}
+.coding2{
+    grid-area: 3/2/4/3;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto auto auto;
+}
+.Pjt{
+    grid-area: 1/1/2/3;
+}
+.Pjt1{
+    grid-area: 2/1/3/2;
+    font-size: 1.2rem;
+}
+.Pjt2{
+    grid-area: 2/2/3/3;
+    font-size: 1.2rem;
+}
+.Pjt3{
+    grid-area: 3/1/4/2;
+    font-size: 1.2rem;
+}
+.Pjt4{
+    grid-area: 3/2/4/3;
+    font-size: 1.2rem;
+}
+
+.Exp1 > ul,.Exp2 > ul{
+    font-size: 1.2rem;
+}
+
+.Edu1,.Edu2,.Edu3{
+    font-size: 1.2rem;
+}
